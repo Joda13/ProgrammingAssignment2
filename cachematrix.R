@@ -30,3 +30,7 @@ cacheSolve <- function(x, ...) {
 
 
 ## example
+
+expl_matr <- matrix(rnorm(49), 7, 7)
+inv_matr_1 <- makeCacheMatrix(expl_matr)
+cacheSolve(inv_matr_1)
